@@ -394,59 +394,112 @@ color: white;
 
 /* ---------------------------------------- FIN ZONE FORMATION ---------------------------- */
 /* --------------------------------------- DEBUT ZONE CONTACT ---------------------------- */
-
-
-
-
-
-/* .contact{
+.contact{
   margin: 0px;
-  min-height: 100vh;
-  min-width: 100vh;
-  background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/background/vecorielle/copi\ fond.jpg);
+  background-size: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
-.contenu-p4{
-  margin-top: 3em;
-  height: 80%;
-  width: 80%;
+.contenu-contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 3px solid yellow;
+}
+
+.contact-titre{
+  padding: 0px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align:center;
+  width: 65%;
+  height: 10%;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #FFD700;
+  color: white;
+}
+
+.contenu-lien{
+  width: 100%;
+  height: 35%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-items:center;
+  align-items: center;
+  justify-content:space-around;
+  border: 2px solid rgb(23, 6, 122);
+  border-radius: 100px;
+  background-color: aliceblue;
+
 }
 
-.bloc{
-  border: 2px solid rgb(255, 255, 255);
-  box-shadow: rgba(129, 129, 236, 0.25) 
-  0px 30px 60px -12px inset, 
-  rgba(250, 246, 246, 0.3) 0px 18px 36px -18px inset;    
-  border-radius: 30%;
-  width: 20%;
-  padding: 20px;margin: 10px;
+.bloc-lien{
+  width: 200px;
+  height: 200px;
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  
+  
+}
+
+img{
+  width:70%;
+}
+
+.bloc-dl-cv{
+  width: 300px;
+  height: 50px;
+  border: 3px solid yellow;
+  background-color: #0f1180;
+  border-radius: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow:
+  rgba(255, 255, 255, 0.25) 0px 54px 55px, 
+  rgba(255, 255, 255, 0.12) 0px -12px 30px, 
+  rgba(255, 255, 255, 0.12) 0px 4px 6px,
+  rgba(255, 255, 255, 0.17) 0px 12px 13px,
+  rgba(255, 255, 255, 0.09) 0px -3px 5px;
+
+
 }
 
-.email .telephone .guithub .linkedin .mon-cv{
-  width: 10px;
-}
-.contact-TEXT{
-  text-align: center;
-  color: white;
-  font-size: 50PX;
-}
-
- */
-
-
+.bloc-dl-cv>a{
+  height: 100%;
+  width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+  
+  }
 
 
 
