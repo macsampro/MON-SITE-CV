@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     }
+    
 body{
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@ body{
     padding: 0px;
     z-index: 20;
 }
+
 .menu{
     margin-top: 0px;
     padding:5px 20px 5px 10px;
@@ -35,8 +37,8 @@ body{
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(43,43,43,1) 73%, rgba(96,95,95,1) 100%);    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
-
 }
+
 .menu, li{
     flex-grow: 1;
 }
@@ -51,7 +53,6 @@ body{
     padding: 5px 10px 5px 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transition: all 0.2s ease-in-out;
-
 }
   
   .bouton:hover {
@@ -61,9 +62,6 @@ body{
   .bouton:active {
     transform: translateY(2px);
   }
-
-
-
 
   /* -------------------------------------- FIN ZONE NAV-BARRE ----------------------------- */
   /* -------------------------------------- DEBUT ZONE HOME ----------------------------- */
@@ -78,6 +76,7 @@ body{
     align-items:center;
 
   }
+
   .photo-profil {
     opacity: 0.5;
     width: 40%;
@@ -86,6 +85,7 @@ body{
     right: 0;
     object-fit: cover;
   }
+
   .mef-id {
     background-color: rgba(221, 185, 84, 0.678);
     padding: 20px;
@@ -98,6 +98,7 @@ body{
     box-shadow: rgba(141, 112, 16, 0.56) 0px 22px 70px 4px;
     border-radius: 0px 100px 100px 0px;
   }
+
   .group-titre {
     margin-bottom: 0;
     text-align: center;
@@ -110,9 +111,11 @@ body{
     font-size: 60px;
     margin-bottom: 30px;
 }
+
 .group-titre>p{
     font-size: 30px;
     margin-bottom: 20px;
+
 }
 @media screen and (max-width: 768px) {
   .p1 {
@@ -138,17 +141,13 @@ body{
   /* ----------------------------- DEBUT ZONE A PROPO DE MOI ---------------------------- */
 
   .p2{
-
-
     background-image:url(img/background/vecorielle/19939933_6203790.jpg) ;
     background-size: 100%;
     height: 100vh;
     width: 100%;
-
     display: flex;
     justify-content:space-between;
     align-items:center;
-
 }
 .titre-p2{
     display: flex;
@@ -166,8 +165,8 @@ body{
     border-radius: 20px;
     background-image: url(img/background/vecorielle/light-background.jpg);
     background-size: 100%;
-
 }
+
 .text-p2{
     padding: 15px 30px;
     background-color: #D9AFD9;
@@ -184,17 +183,14 @@ body{
     box-shadow: 0px 0px 30px #FFD700;
     color: white;
 }
+
 .text-p2>h1{
     text-align: center;
 }
-
-
-
   /* ------------------------------- FIN ZONE A PROPO DE MOI ---------------------------- */
   /* -------------------------------- DEBUT ZONE PQUOI MOI ---------------------------- */
  
-
-    .P-moi{
+.P-moi{
     background-image:url(img/background/vecorielle/19939933_6203790.jpg) ;
     background-size: 100%;
     height: 100vh;
@@ -205,6 +201,7 @@ body{
     align-items:center;
     flex-direction: column;
 }
+
  .titre-pm{
     padding: 0px;
     background-color: #D9AFD9;
@@ -221,6 +218,7 @@ body{
     box-shadow: 0px 0px 30px #FFD700;
     color: white;
 }
+
 .text-p-moi{
     padding: 15px 30px;
     background-color: #D9AFD9;
@@ -252,6 +250,7 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
 .PARCOUR-PRO-TITRE{
 padding: 0px;
 margin-bottom: 20px;
@@ -269,6 +268,7 @@ border-radius: 20px;
 box-shadow: 0px 0px 30px #FFD700;
 color: white;
 }
+
 .section-p2{
   display: flex;
   justify-content: center;
@@ -278,12 +278,14 @@ color: white;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 .bloc-cv{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 10px;
 }
+
 .date{
   margin: 5px;
   width: 30%;
@@ -295,6 +297,7 @@ color: white;
   border-radius: 20px 0px 0px 20px;
   box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
 }
+
 .experiance{
   width: 70%;
   margin: 5px;
@@ -303,12 +306,14 @@ color: white;
   border-radius: 0px 20px 20px 0px;
   box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
 }
+
 .experiance>h2{
   font-size: 23px;
   margin: 5px;
   padding-bottom: 5px;
   line-height: 1em;
 }
+
 /* ---------------------------------------- FIN ZONE PARCOUR PRO ---------------------------- */
 /* --------------------------------------- DEBUT ZONE FORMATION ---------------------------- */
 .formation{
@@ -380,6 +385,7 @@ color: white;
   height: 10%;
   font-size: 1em;
 }
+
 .bloc-form>img{
   width: 40%;
   margin-top: auto;
@@ -391,7 +397,6 @@ color: white;
   height: auto;
   text-align:justify;
 }
-
 /* ---------------------------------------- FIN ZONE FORMATION ---------------------------- */
 /* --------------------------------------- DEBUT ZONE CONTACT ---------------------------- */
 .contact{
@@ -443,7 +448,6 @@ color: white;
   border: 2px solid rgb(23, 6, 122);
   border-radius: 100px;
   background-color: aliceblue;
-
 }
 
 .bloc-lien{
@@ -460,9 +464,6 @@ color: white;
     rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-  
-  
 }
 
 img{
@@ -472,20 +473,11 @@ img{
 .bloc-dl-cv{
   width: 300px;
   height: 50px;
-  border: 3px solid yellow;
   background-color: #0f1180;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow:
-  rgba(255, 255, 255, 0.25) 0px 54px 55px, 
-  rgba(255, 255, 255, 0.12) 0px -12px 30px, 
-  rgba(255, 255, 255, 0.12) 0px 4px 6px,
-  rgba(255, 255, 255, 0.17) 0px 12px 13px,
-  rgba(255, 255, 255, 0.09) 0px -3px 5px;
-
-
 }
 
 .bloc-dl-cv>a{
@@ -498,11 +490,8 @@ img{
     font-size: 20px;
     line-height: 25px;
     color: white;
-  
   }
 
-
-
-
-
 /* ---------------------------------------- fin ZONE CONTACT ---------------------------- */
+
+
