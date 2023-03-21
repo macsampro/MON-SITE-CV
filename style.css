@@ -241,50 +241,43 @@ body{
   /* ----------------------------------- FIN ZONE POURQUOI MOI ---------------------------- */
   /* ----------------------------------- DEBUT ZONE PARCOUR PRO ---------------------------- */
 
-  .p3{
-    padding: 30;
-    margin: 0px;
-    min-height: 100vh;
-    min-width: 100vh;
-    background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-.PARCOUR-PRO-TITRE{
-  padding: 0px;
-  margin-bottom: 20px;
-  margin-top: 50px; 
-  background-color: #D9AFD9;
-  background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+.p3{
+  padding: 30;
+  margin: 0px;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* margin: 200px 30px 10px 30px; */
-  text-align:center;
-  width: 65%;
-  height: 5vh;
-  border: 3px solid white;
-  border-radius: 20px;
-  box-shadow: 0px 0px 30px #FFD700;
-  color: white;
-
+  align-items: center;
 }
-
+.PARCOUR-PRO-TITRE{
+padding: 0px;
+margin-bottom: 20px;
+margin-top: 50px; 
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align:center;
+width: 65%;
+height: 5vh;
+border: 3px solid white;
+border-radius: 20px;
+box-shadow: 0px 0px 30px #FFD700;
+color: white;
+}
 .section-p2{
   display: flex;
   justify-content: center;
   flex-direction: column;
   line-height: 1em;
-
   color: white;width: 60vh;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-
 .bloc-cv{
   display: flex;
   flex-direction: row;
@@ -301,9 +294,6 @@ body{
   border-left: 3px solid gold;
   border-radius: 20px 0px 0px 20px;
   box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
-
-  
-
 }
 .experiance{
   width: 70%;
@@ -313,82 +303,98 @@ body{
   border-radius: 0px 20px 20px 0px;
   box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
 }
-
 .experiance>h2{
   font-size: 23px;
   margin: 5px;
   padding-bottom: 5px;
   line-height: 1em;
 }
-
-
-
 /* ---------------------------------------- FIN ZONE PARCOUR PRO ---------------------------- */
 /* --------------------------------------- DEBUT ZONE FORMATION ---------------------------- */
+/* -----------------------------zone teste--------------------- */
 
 .formation{
-    margin: 0px;
-    min-height: 100vh;
-    min-width: 100vh;
-    background-image: url(img/background/vecorielle/copi\ fond.jpg);
-    background-size: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/background/vecorielle/copi\ fond.jpg);
+  background-size: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-
+.contenu-formation{
+  /* width: 100%;*/
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid pink;
+}
 .FORMATION-TEXT{
-    text-align: center;
-    color: white;
-    font-size: 50PX;
-
+  padding: 0px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0px 10px 0px;
+  text-align:center;
+  width: 65%;
+  height: 10%;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #FFD700;
+  color: white;
 }
-
-
 .contenu-p4{
-    margin-top: 3em;
-    height: 80%;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items:center;
-
+  width: 100%;
+  height: 30%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.bloc{
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    border-radius: 30%;
-    width: 20vh;
-    height: 20vh;
-    padding: 20px;margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.bloc-form{
+  border: 2px solid rgba(255, 255, 255, 0.74);
+  width: 20%;
+  height: 40%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  color: white;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px ;
+  padding: 5px;
 }
 
-.bloc>h1{
-    margin-top: 10px ;
-    color: white;
-    line-height: 1em;
-
+.bloc-form>h1{
+  margin-top: 0px;
+  height: 30%;
+  font-size: 1em;
 }
 
-.bloc> img{
-  width: 25%;
-
+.bloc-form>img{
+  width: 6em;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-.bloc>p{
-    color: white;
-    margin-bottom: 0;
+.bloc-form>p{
+  margin-bottom: 0px;
+  height: 15px;
+  text-align: center;
 }
+
 
 
 
