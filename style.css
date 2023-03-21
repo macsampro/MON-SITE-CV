@@ -241,9 +241,23 @@ body{
   /* ----------------------------------- FIN ZONE POURQUOI MOI ---------------------------- */
   /* ----------------------------------- DEBUT ZONE PARCOUR PRO ---------------------------- */
 
+  .p3{
+    padding: 30;
+    margin: 0px;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
 .PARCOUR-PRO-TITRE{
   padding: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 50px; 
   background-color: #D9AFD9;
   background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
   display: flex;
@@ -252,81 +266,60 @@ body{
   /* margin: 200px 30px 10px 30px; */
   text-align:center;
   width: 65%;
-  height: 100px;
+  height: 5vh;
   border: 3px solid white;
   border-radius: 20px;
   box-shadow: 0px 0px 30px #FFD700;
   color: white;
+
 }
-.p3{
-  padding: 0;
-  margin: 0px;
-  min-height: 100vh;
-  min-width: 100vh;
-  background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
+
+.section-p2{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  line-height: 1em;
+
+  color: white;width: 60vh;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 .bloc-cv{
-  width: 100%;
-  height: 110px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 10px;
 }
-.bloc-01{
-    margin-top: 50px;
-}
-.bloc-02, .bloc-04{
-    flex-direction: row-reverse;
+.date{
+  margin: 5px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid gold;
+  border-left: 3px solid gold;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
+
+  
 
 }
-.experiance, .date{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.date-bloc-01, .date-bloc-03, .experiance-bloc-02, .experiance-bloc-04 {
-  text-align: right   ;
-  border-right: 10px solid rgb(216, 144, 10);
-  padding-right:30px ;
-  color: white;
-}
-.date-bloc-02, .date-bloc-04, .experiance-bloc-01,.experiance-bloc-03{
-  text-align: left   ;
-  border-left: 10px solid rgb(216, 144, 10);
-  padding-left:30px ;
-  border-radius: 0%;
-  color: white;
-
-
-}
-.bloc-01, .bloc-03{
-background: rgb(60,62,73);
-background: linear-gradient(180deg, rgba(60,62,73,1) 5%, rgba(95,95,98,1) 49%, rgba(72,73,74,1) 75%);
-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-border: 2px solid rgb(255, 255, 255);
-width: 50%;
-display: flex;
-justify-content: center;
-border-radius: 20px;
-margin: 10px;
-}
-.bloc-02, .bloc-04{
-background: rgb(60,62,73);
-background: linear-gradient(180deg, rgba(60,62,73,1) 5%, rgba(95,95,98,1) 49%, rgba(72,73,74,1) 75%);
-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-border: 2px solid rgb(255, 255, 255);
-width: 50%;
-display: flex;
-justify-content: center;
-border-radius: 20px;
-margin: 10px;
+.experiance{
+  width: 70%;
+  margin: 5px;
+  border-right: 2px solid gold;
+  border-bottom: 2px solid gold;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.432);
 }
 
+.experiance>h2{
+  font-size: 23px;
+  margin: 5px;
+  padding-bottom: 5px;
+  line-height: 1em;
+}
 
 
 
