@@ -1,13 +1,43 @@
+
 @font-face {
-  font-family: 'quickregular';
-  src: url('/font/quick\ regular/quick1-webfont.woff2') format('woff2'),
-       url('/font/quick\ regular/quick1-webfont.woff') format('woff');
+  font-family: 'big_river_sampleregular';
+  src: url('/font/big_river_sample/big_river_sample-webfont.woff2') format('woff2'),
+       url('/font/big_river_sample/big_river_sample-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
-body{
+
+@font-face {
+  font-family: 'big_river_script_sampleRg';
+  src: url('/font/big_river_sample/big_river_script_sample-webfont.woff2') format('woff2'),
+       url('/font/big_river_sample/big_river_script_sample-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'meticularegular';
+  src: url('/font/font02/meticula-webfont.woff2') format('woff2'),
+       url('/font/font02/meticula-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+ @font-face {
   font-family: 'quickregular';
+  src: url('/font/quick\ regular/quick1-webfont.woff2') format('woff2'),
+       url('/font/quick\ regular/quick1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+body{
+
+
 
 }
 
@@ -18,6 +48,7 @@ body{
     }
 
 body{
+  font-family: 'big_river_sampleregular';
   display: flex;
   flex-direction: column;
   min-height: 100vw;
@@ -118,6 +149,7 @@ body{
     text-align: center;
     padding: 5% 0% 5% 0%;
     color: rgb(255, 255, 255);
+    width: 70%;
   }
 
 .group-titre>h1{
@@ -129,6 +161,10 @@ body{
 .group-titre>p{
     font-size: 30px;
     margin-bottom: 20px;
+    border-top: 3px solid white;
+    padding: 10px;
+    width: 100%;
+
 
 }
 @media screen and (max-width: 768px) {
@@ -245,11 +281,12 @@ body{
   margin: 10px 30px 200px 30px;
   text-align:justify;
   width: 60%;
-  height: 30%;
+  height: 40%;
   border: 3px solid white;
   border-radius: 20px;
   box-shadow: 0px 0px 30px #FFD700;
   color: white;
+  font-size: larger;
 }
 
 .text-p-moi>ul{
@@ -259,7 +296,6 @@ body{
   display: flex;
   flex-direction: column;
   align-items:first baseline;
-  border: 2px solid red;
 }
 
 .text-p-moi>ul{
@@ -274,7 +310,8 @@ body{
   margin: 0px;
   min-height: 100vh;
   min-width: 100vh;
-  background-image: url(img/background/vecorielle/sl_0210121_40570_43.jpg);
+  background-image: url(img/background/vecorielle/copi\ fond.jpg);
+  background-size: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -305,8 +342,9 @@ color: white;
   flex-direction: column;
   line-height: 1em;
   color: white;width: 60vh;
-  width: 40%;
+  width: 50%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-top: 5%;
 }
 
 .bloc-cv{
@@ -584,6 +622,7 @@ img{
   align-items: center;
   border-radius: 20px;
   object-fit: cover;
+  opacity: 0.3;
   /* margin: 40px 0px 0px 10px; */
 }
 
