@@ -1,16 +1,30 @@
+@font-face {
+  font-family: 'quickregular';
+  src: url('/font/quick\ regular/quick1-webfont.woff2') format('woff2'),
+       url('/font/quick\ regular/quick1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+p, h2, h3{
+  font-family: 'quickregular';
+
+}
+
+
 * {
     margin:0;
     padding:0;
     }
 
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vw;
-    min-width: 100vh;
-    margin: 0;
-    line-height: 100%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vw;
+  min-width: 100vh;
+  margin: 0;
+  line-height: 100%;
+  text-align: center;
 }
 
   /* -------------------------------------- DEBUT ZONE NAV-BARRE ------------------------- */
@@ -54,11 +68,11 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transition: all 0.2s ease-in-out;
 }
-  
+
   .bouton:hover {
     transform: translateY(-5px);
   }
-  
+
   .bouton:active {
     transform: translateY(2px);
   }
@@ -136,7 +150,7 @@ body{
     margin-bottom: 20px;
   }
 }
-  
+
   /* ----------------------------------- FIN ZONE HOME ---------------------------- */
   /* ----------------------------- DEBUT ZONE A PROPO DE MOI ---------------------------- */
 
@@ -189,7 +203,7 @@ body{
 }
   /* ------------------------------- FIN ZONE A PROPO DE MOI ---------------------------- */
   /* -------------------------------- DEBUT ZONE PQUOI MOI ---------------------------- */
- 
+
 .P-moi{
     background-image:url(img/background/vecorielle/19939933_6203790.jpg) ;
     background-size: 100%;
@@ -254,7 +268,7 @@ body{
 .PARCOUR-PRO-TITRE{
 padding: 0px;
 margin-bottom: 20px;
-margin-top: 50px; 
+margin-top: 50px;
 background-color: #D9AFD9;
 background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
 display: flex;
@@ -316,6 +330,10 @@ color: white;
 
 /* ---------------------------------------- FIN ZONE PARCOUR PRO ---------------------------- */
 /* --------------------------------------- DEBUT ZONE FORMATION ---------------------------- */
+
+
+
+
 .formation{
   margin: 0px;
   height: 100vh;
@@ -354,20 +372,21 @@ color: white;
 }
 
 .contenu-p4{
-  width: 100%;
+  width: 60%;
   height: 80%;
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
+  padding-top: 100px;
 }
 
 .bloc-form{
   border: 2px solid rgba(255, 255, 255, 0.74);
   width: 20%;
-  height: 35%;
-  margin: 15px;
+  height: 25%;
+  margin: 15px 15px 0px 15px;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -397,70 +416,110 @@ color: white;
   height: auto;
   text-align:justify;
 }
+
+
 /* ---------------------------------------- FIN ZONE FORMATION ---------------------------- */
 /* --------------------------------------- DEBUT ZONE CONTACT ---------------------------- */
+
 .contact{
-  margin: 0px;
+  padding: 20px;
+  background: rgb(20,20,23);
+  background: linear-gradient(138deg, rgba(20,20,23,1) 17%, rgba(95,95,98,1) 49%, rgba(20,20,23,1) 76%);
+  display: flex;
+}
+
+.contact-contenu{
+  width: 50%;
   height: 100vh;
-  width: 100%;
-  background-image: url(img/background/vecorielle/copi\ fond.jpg);
-  background-size: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin: 40px 10px 0px 0px;
+}
+
+.contact-bloc-01{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: white;
+  margin: 30px;
+
 }
 
-.contenu-contact{
+.contact-bloc-01>img{
+  width: 30%;
+  border-radius: 100%;
+}
+
+.contact-bloc-01>h1{
   width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mon-id{
+  height: 20%;
+  display: flex;
+  justify-content:center;
+  flex-direction: row ;
+  align-items: center;
+}
+
+.mon-id-01{
+  display: flex;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
+  width: 100%;
+  justify-content:center;
+  flex-direction: column ;
   align-items: center;
-  border: 3px solid yellow;
+  line-height: 20px;
 }
 
-.contact-titre{
-  padding: 0px;
-  background-color: #D9AFD9;
-  background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
+.mon-id-01>h3{
+  margin-right: 10px;
+}
+
+.contact-contenu>h2{
+  height: 20%;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  text-align:center;
-  width: 65%;
-  height: 10%;
-  border: 3px solid white;
-  border-radius: 20px;
-  box-shadow: 0px 0px 30px #FFD700;
-  color: white;
+  align-items: center;
+}
+
+.bloc-contact-lien{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-bottom: 10%;
 }
 
 .contenu-lien{
   width: 100%;
-  height: 35%;
+  height: 50%;
+  border-radius: 20px;
+  /* margin-top: 20%; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content:space-around;
-  border: 2px solid rgb(23, 6, 122);
-  border-radius: 100px;
-  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.151);
 }
 
 .bloc-lien{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   border-radius: 100%;
   box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
     rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -474,48 +533,35 @@ color: white;
 }
 
 .bloc-lien:active{
-  box-shadow: 
-  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, 
+  box-shadow:
+  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
   rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-
 
 img{
   width:70%;
 }
 
-.bloc-dl-cv{
-  width: 300px;
-  height: 50px;
-  background-color: #0f1180;
-  border: 2px solid ;
-  border-radius: 50px;
+.contact-img-pd{
+  background-size: 100v;
+  width: 50%;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
-.bloc-dl-cv:hover{
-  box-shadow: 0px 0px 20px rgb(54, 226, 10);
-  border: 2px solid rgb(23, 230, 16);
-
+.contact-img-pd>img{
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 40px 0px 0px 10px;
 }
 
-
-
-.bloc-dl-cv>a{
-  height: 100%;
-  width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    line-height: 25px;
-    color: white;
-  }
-
-  
 
 /* ---------------------------------------- fin ZONE CONTACT ---------------------------- */
 
