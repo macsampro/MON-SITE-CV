@@ -489,14 +489,14 @@ color: white;
 }
 
 .contact-bloc-01>img{
-  /* width: 200px;
+  width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 100px;
   border: 1px solid white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
               rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: rgba(255, 255, 255, 0.617); */
+  background-color: rgba(255, 255, 255, 0.617);
 }
 
 .contact-bloc-01>h1{
