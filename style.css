@@ -491,7 +491,7 @@ color: white;
 .contact-bloc-01>img{
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 100px;
   border: 1px solid white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
