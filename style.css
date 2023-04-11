@@ -17,8 +17,6 @@
 
 }
 
-
-
 @font-face {
   font-family: 'meticularegular';
   src: url('/font/font02/meticula-webfont.woff2') format('woff2'),
@@ -35,11 +33,6 @@
   font-style: normal; 
 }
 
-body{
-
-
-
-}
 
 
 * {
@@ -48,7 +41,6 @@ body{
     }
 
 body{
-  /* font-family: 'big_river_sampleregular'; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   flex-direction: column;
@@ -113,13 +105,14 @@ body{
   /* -------------------------------------- DEBUT ZONE HOME ----------------------------- */
 
 .p1 {
-    /* background: linear-gradient(to bottom, black, white); */
     background-image: url(img/background/vecorielle/vecto\ black\ test\ 02.jpg);
     background-size:100%;
     height: 100vh;
     display: flex;
     justify-content:space-between;
     align-items:center;
+    object-fit: cover;
+
 
   }
 
@@ -154,7 +147,6 @@ body{
   }
 
 .group-titre>h1{
-    /* font-family: 'Kalam', cursive; */
     font-size: 60px;
     margin-bottom: 30px;
 }
@@ -189,7 +181,7 @@ body{
 }
 
   /* ----------------------------------- FIN ZONE HOME ---------------------------- */
-  /* ----------------------------- DEBUT ZONE A PROPO DE MOI ---------------------------- */
+  /* ----------------------------- DEBUT ZONE A PROPOS DE MOI ---------------------------- */
 
   .p2{
     background-image:url(img/background/vecorielle/19939933_6203790.jpg) ;
@@ -271,7 +263,6 @@ body{
 }
 
 .text-p-moi{
-  /* padding: 15px 30px; */
   background-color: #D9AFD9;
   background-image: linear-gradient(0deg, #232526 0%, #414345 100%);
   display: flex;
@@ -299,12 +290,9 @@ body{
   align-items:first baseline;
 }
 
-.text-p-moi>ul{
-  /* list-style-type: none; */
-}
 
   /* ----------------------------------- FIN ZONE POURQUOI MOI ---------------------------- */
-  /* ----------------------------------- DEBUT ZONE PARCOUR PRO ---------------------------- */
+  /* ----------------------------------- DEBUT ZONE PARCOURS PRO ---------------------------- */
 
 .p3{
   padding: 30;
@@ -383,7 +371,7 @@ color: white;
   line-height: 1em;
 }
 
-/* ---------------------------------------- FIN ZONE PARCOUR PRO ---------------------------- */
+/* ---------------------------------------- FIN ZONE PARCOURS PRO ---------------------------- */
 /* --------------------------------------- DEBUT ZONE FORMATION ---------------------------- */
 
 
@@ -510,6 +498,7 @@ color: white;
   border: 1px solid white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
               rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: rgba(255, 255, 255, 0.617);
 }
 
 .contact-bloc-01>h1{
@@ -569,7 +558,6 @@ color: white;
   width: 100%;
   height: 50%;
   border-radius: 20px;
-  /* margin-top: 20%; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -633,7 +621,6 @@ img{
   border-radius: 20px;
   object-fit: cover;
   opacity: 0.3;
-  /* margin: 40px 0px 0px 10px; */
 }
 
 
